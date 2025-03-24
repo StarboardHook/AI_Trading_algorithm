@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./models",
+        "C:\\Users\\sagie\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages"
+    ]
+}
