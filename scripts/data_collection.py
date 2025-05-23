@@ -8,8 +8,8 @@ from alpaca.data.timeframe import TimeFrame
 import logging
 
 # API Credentials
-API_KEY = os.environ.get('APCA_API_KEY_ID')
-API_SECRET = os.environ.get('APCA_API_SECRET_KEY')
+API_KEY = os.environ.get("APCA_API_KEY_ID")
+API_SECRET = os.environ.get("APCA_API_SECRET_KEY")
 trading_client = TradingClient(API_KEY, API_SECRET)
 stock_client = StockHistoricalDataClient(API_KEY, API_SECRET)
 
